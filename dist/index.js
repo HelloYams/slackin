@@ -187,7 +187,7 @@ function slackin(_ref) {
         return res.status(400).json({ msg: err.message });
       }
 
-      res.status(200).json({ msg: 'WOOT. Check your email!' });
+      res.status(200).json({ msg: 'You\'re in. Check your email!' });
     });
   });
 
